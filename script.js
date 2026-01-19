@@ -17,13 +17,11 @@ const getSum = () => {
 			  // datatable.innerText = "total prices:"  + total;
 			  // newrow.append(datatable1,datatable2)
 			  // table.append(newrow)
-			  datatable1.innerText = "total prices:"
+			  datatable1.innerText = "total prices :"
 			  datatable2.innerText = total;
 	           newrow.append(datatable1,datatable2)
 			   table.append(newrow)
-		
 	
-  
 };
 
 getSumBtn.addEventListener("click", getSum);
