@@ -11,6 +11,7 @@ const getSum = () => {
 		  }
 		let table=document.querySelector("table")
 		let newrow = document.createElement("tr")
+	     newrow.id= "ans";
 		let datatable1 = document.createElement("td")
 	    let datatable2 = document.createElement("td")
 			  
